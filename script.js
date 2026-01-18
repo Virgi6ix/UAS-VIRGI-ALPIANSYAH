@@ -24,7 +24,7 @@ form.addEventListener("submit", function (e) {
   }
 
   const li = document.createElement("li");
-  li.textContent = `${nama} (${kategori}) - ${hp}`;
+  li.textContent = `${nama} (${kategori})`;
   list.appendChild(li);
 
   totalPeserta++;
